@@ -1,0 +1,14 @@
+D:\adm\Documents\STUDIA\VI Semestr\Wzorce Projektowe\CW1_3\CW1_3\bin\Debug\CW1_3.exe.config
+D:\adm\Documents\STUDIA\VI Semestr\Wzorce Projektowe\CW1_3\CW1_3\bin\Debug\CW1_3.exe
+D:\adm\Documents\STUDIA\VI Semestr\Wzorce Projektowe\CW1_3\CW1_3\bin\Debug\CW1_3.pdb
+D:\adm\Documents\STUDIA\VI Semestr\Wzorce Projektowe\CW1_3\CW1_3\obj\Debug\CW1_3.csprojAssemblyReference.cache
+D:\adm\Documents\STUDIA\VI Semestr\Wzorce Projektowe\CW1_3\CW1_3\obj\Debug\CW1_3.csproj.CoreCompileInputs.cache
+D:\adm\Documents\STUDIA\VI Semestr\Wzorce Projektowe\CW1_3\CW1_3\obj\Debug\CW1_3.exe
+D:\adm\Documents\STUDIA\VI Semestr\Wzorce Projektowe\CW1_3\CW1_3\obj\Debug\CW1_3.pdb
+C:\Users\kikepl\WORK\STUDIA\MGR\Inzynieria Oprogramowania\CW1_3\CW1_3\obj\Debug\CW1_3.csprojAssemblyReference.cache
+C:\Users\kikepl\WORK\STUDIA\MGR\Inzynieria Oprogramowania\CW1_3\CW1_3\obj\Debug\CW1_3.csproj.CoreCompileInputs.cache
+C:\Users\kikepl\WORK\STUDIA\MGR\Inzynieria Oprogramowania\CW1_3\CW1_3\obj\Debug\CW1_3.exe
+C:\Users\kikepl\WORK\STUDIA\MGR\Inzynieria Oprogramowania\CW1_3\CW1_3\obj\Debug\CW1_3.pdb
+C:\Users\kikepl\WORK\STUDIA\MGR\Inzynieria Oprogramowania\CW1_3\CW1_3\bin\Debug\CW1_3.exe.config
+C:\Users\kikepl\WORK\STUDIA\MGR\Inzynieria Oprogramowania\CW1_3\CW1_3\bin\Debug\CW1_3.exe
+C:\Users\kikepl\WORK\STUDIA\MGR\Inzynieria Oprogramowania\CW1_3\CW1_3\bin\Debug\CW1_3.pdb
