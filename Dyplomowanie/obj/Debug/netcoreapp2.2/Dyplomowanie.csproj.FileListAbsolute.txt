@@ -1,0 +1,11 @@
+C:\Users\adm\source\repos\AniaS98\Software-engineering---project\Dyplomowanie\bin\Debug\netcoreapp2.2\Dyplomowanie.deps.json
+C:\Users\adm\source\repos\AniaS98\Software-engineering---project\Dyplomowanie\bin\Debug\netcoreapp2.2\Dyplomowanie.runtimeconfig.json
+C:\Users\adm\source\repos\AniaS98\Software-engineering---project\Dyplomowanie\bin\Debug\netcoreapp2.2\Dyplomowanie.runtimeconfig.dev.json
+C:\Users\adm\source\repos\AniaS98\Software-engineering---project\Dyplomowanie\bin\Debug\netcoreapp2.2\Dyplomowanie.dll
+C:\Users\adm\source\repos\AniaS98\Software-engineering---project\Dyplomowanie\bin\Debug\netcoreapp2.2\Dyplomowanie.pdb
+C:\Users\adm\source\repos\AniaS98\Software-engineering---project\Dyplomowanie\obj\Debug\netcoreapp2.2\Dyplomowanie.csprojAssemblyReference.cache
+C:\Users\adm\source\repos\AniaS98\Software-engineering---project\Dyplomowanie\obj\Debug\netcoreapp2.2\Dyplomowanie.csproj.CoreCompileInputs.cache
+C:\Users\adm\source\repos\AniaS98\Software-engineering---project\Dyplomowanie\obj\Debug\netcoreapp2.2\Dyplomowanie.AssemblyInfoInputs.cache
+C:\Users\adm\source\repos\AniaS98\Software-engineering---project\Dyplomowanie\obj\Debug\netcoreapp2.2\Dyplomowanie.AssemblyInfo.cs
+C:\Users\adm\source\repos\AniaS98\Software-engineering---project\Dyplomowanie\obj\Debug\netcoreapp2.2\Dyplomowanie.dll
+C:\Users\adm\source\repos\AniaS98\Software-engineering---project\Dyplomowanie\obj\Debug\netcoreapp2.2\Dyplomowanie.pdb
