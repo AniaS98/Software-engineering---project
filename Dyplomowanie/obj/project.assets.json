@@ -541,7 +541,6 @@
       "path": "microsoft.netcore.targets/2.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
@@ -687,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\futura\\.nuget\\packages\\": {},
+    "C:\\Users\\adm\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\futura\\Source\\Repos\\Software-engineering---project\\Dyplomowanie\\Dyplomowanie.csproj",
+      "projectUniqueName": "C:\\Users\\adm\\source\\repos\\AniaS98\\Software-engineering---project\\Dyplomowanie\\Dyplomowanie.csproj",
       "projectName": "Dyplomowanie",
-      "projectPath": "C:\\Users\\futura\\Source\\Repos\\Software-engineering---project\\Dyplomowanie\\Dyplomowanie.csproj",
-      "packagesPath": "C:\\Users\\futura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\futura\\Source\\Repos\\Software-engineering---project\\Dyplomowanie\\obj\\",
+      "projectPath": "C:\\Users\\adm\\source\\repos\\AniaS98\\Software-engineering---project\\Dyplomowanie\\Dyplomowanie.csproj",
+      "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adm\\source\\repos\\AniaS98\\Software-engineering---project\\Dyplomowanie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\futura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
