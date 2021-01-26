@@ -11,12 +11,8 @@ namespace Dyplomowanie
         private DateTime DeadlineOfCurrentStage;
         private bool CheckVar;
 
-        public JSAcontrol(DateTime testingDate, string promotor, string subject, string filename)
+        public JSAcontrol(DateTime testingDate)
         {
-            this.Promotor = promotor;
-            this.Subject = subject;
-            this.FileName = filename;
-
             this.DeadlineOfCurrentStage = testingDate.AddDays(1.0);
             this.CheckVar = false;
         }
@@ -27,24 +23,38 @@ namespace Dyplomowanie
             this.FileName = "";
         }
 
-        public override void DeadlineCheck(DateTime date)
+        public override bool DeadlineCheck(DateTime date)
         {
             int current = (DeadlineOfCurrentStage - date).Days;
             int finale = (FinaleDeadline - date).Days;
 
             if (finale <= 0)
+            {
                 Console.WriteLine("Przykro nam, czas na uzyskanie dyplomu w roku akademickim 2020/21 się skończył. Spróbuj za rok.");
+                return false;
+            }
             else if (finale < 2)
+            {
                 Console.WriteLine("Czas na uzyskanie Dyplomu się kończy.");
+                return true;
+            }
             else if (current <= 0)
+            {
                 Console.WriteLine("Planowany czas na zakończenie tego etapu zakończył się. Trwa analiza przesłanej pracy. Do ostatecznego terminu obrony pozostało " + finale + " dni.");
+                return false;
+            }
             else
+            {
                 Console.WriteLine("Zostało jeszcze " + current + " dni do planowanego zakończenia tego etapu.\nDo ostatecznego terminu dyplomowania zostało Ci " + finale + " dni");
+                return true;
+            }
+
         }
 
         public override void Update(string fileName)
         {
             this.CheckVar = true;
+            this.FileName = fileName;
         }
 
         public override bool Check()
