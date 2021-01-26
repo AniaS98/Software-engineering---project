@@ -9,32 +9,39 @@ namespace Dyplomowanie
     public class ThesisDefence : StageType
     {
         private DateTime DeadlineOfCurrentStage;
-        
-
-        public ThesisDefence(DateTime testingDate, string promotor, string subject, string filename, string evaluation)
+        private DateTime DateOfGraduate;
+               
+        public ThesisDefence(DateTime testingDate)
         {
-            this.Promotor = promotor;
-            this.Subject = subject;
-            this.FileName = filename;
-            this.Evaluation = evaluation;
-
             this.DeadlineOfCurrentStage = testingDate.AddDays(1.0);
             this.DateOfGraduate = new DateTime();
         }
 
-        public override void DeadlineCheck(DateTime date)
+        public override bool DeadlineCheck(DateTime date)
         {
             int current = (DeadlineOfCurrentStage - date).Days;
             int finale = (FinaleDeadline - date).Days;
 
             if (finale <= 0)
+            {
                 Console.WriteLine("Przykro nam, czas na uzyskanie dyplomu w roku akademickim 2020/21 się skończył. Spróbuj za rok.\n");
+                return false;
+            }
             else if (finale < 2)
+            {
                 Console.WriteLine("Czas na uzyskanie Dyplomu się kończy.\nSystem oczekuje na wprowadzenie terminu obrony\n");
+                return true;
+            }
             else if (current <= 0)
+            {
                 Console.WriteLine("Planowany czas na zakończenie tego etapu zakończył się.\nDo ostatecznego terminu pozostało Ci " + finale + " dni.\n");
+                return false;
+            }
             else
+            {
                 Console.WriteLine("Zostało jeszcze " + current + " dni do planowanego zakończenia tego etapu.\nDo ostatecznego terminu dyplomowania zostało Ci " + finale + " dni\n");
+                return true;
+            }
         }
 
         public override void Update(string date)

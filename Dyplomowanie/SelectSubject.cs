@@ -10,27 +10,39 @@ namespace Dyplomowanie
     {
         private DateTime DeadlineOfCurrentStage;
 
-        public SelectSubject(DateTime testingDate, string promotor)
+        public SelectSubject(DateTime testingDate)
         {
-            this.Promotor = promotor;
             Subject = "";
 
             this.DeadlineOfCurrentStage = testingDate.AddDays(7.0);
         }
 
-        public override void DeadlineCheck(DateTime date)
+        public override bool DeadlineCheck(DateTime date)
         {
             int current = (DeadlineOfCurrentStage - date).Days;
             int finale = (FinaleDeadline - date).Days;
 
             if (finale <= 0)
+            {
                 Console.WriteLine("Przykro nam, czas na uzyskanie dyplomu w roku akademickim 2020/21 się skończył. Spróbuj za rok.");
+                return false;
+            }
             else if (finale < 20)
+            {
                 Console.WriteLine("Czas na uzyskanie Dyplomu się kończy. Lepiej się pośpiesz.");
+                return true;
+            }
             else if (current <= 0)
+            {
                 Console.WriteLine("Czas na zakończenie tego etapu zakończył się. Prosimy o kontakt z dziekanatem.");
+                return false;
+            }
             else
+            {
                 Console.WriteLine("Zostało jeszcze " + current + " dni do zakończenia tego etapu.\nDo ostatecznego terminu dyplomowania zostało Ci " + finale + " dni");
+                return true;
+            }
+
         }
 
         public override void Update(string subject)
