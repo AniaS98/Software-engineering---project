@@ -1,0 +1,17 @@
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\DyplomowanieTest.deps.json
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\DyplomowanieTest.runtimeconfig.json
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\DyplomowanieTest.runtimeconfig.dev.json
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\DyplomowanieTest.dll
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\DyplomowanieTest.pdb
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\obj\Debug\netcoreapp2.2\DyplomowanieTest.csprojAssemblyReference.cache
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\obj\Debug\netcoreapp2.2\DyplomowanieTest.csproj.CoreCompileInputs.cache
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\obj\Debug\netcoreapp2.2\DyplomowanieTest.AssemblyInfoInputs.cache
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\obj\Debug\netcoreapp2.2\DyplomowanieTest.AssemblyInfo.cs
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\obj\Debug\netcoreapp2.2\DyplomowanieTest.dll
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\obj\Debug\netcoreapp2.2\DyplomowanieTest.pdb
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\Dyplomowanie.dll
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\Dyplomowanie.pdb
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\obj\Debug\netcoreapp2.2\DyplomowanieTest.csproj.CopyComplete
