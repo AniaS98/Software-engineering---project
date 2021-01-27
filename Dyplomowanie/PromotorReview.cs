@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace Dyplomowanie
 {
-    public class PromotorReview : StageType
+    public class PromotorReview : StageType, IThesisUpload
     {
         private DateTime DeadlineOfCurrentStage;
         private string Evaluation;
+
+        public PromotorReview()
+        {
+        }
 
         public PromotorReview(DateTime testingDate)
         {
@@ -46,6 +50,7 @@ namespace Dyplomowanie
         public override void Update(string evaluation)
         {
             this.Evaluation = evaluation;
+            //tu powinien być zapis do bazy
         }
 
         public override bool Check()

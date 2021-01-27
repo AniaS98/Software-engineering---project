@@ -3,18 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Moq;
 
 namespace Dyplomowanie
 {
     public class DiplomaProcess
     {
         public StageType ActualStage { get; set; }
-        public string FileName;
+        public IThesisUpload Stage { get; set; }
 
         public DiplomaProcess(DateTime testingDate)
         {
             this.ActualStage = new ChoosePromotor(testingDate);
             Console.WriteLine(ActualStage.ToString());
+        }
+
+        //DO TESTOWANIA
+        public DiplomaProcess(IThesisUpload stage)
+        {
+            this.Stage = stage;
         }
 
         public void SetNextStage(DateTime testingDate)

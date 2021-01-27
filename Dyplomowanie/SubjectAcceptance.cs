@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Dyplomowanie
 {
-    public class SubjectAcceptance : StageType
+    public class SubjectAcceptance : StageType, IThesisUpload
     {
         private DateTime DeadlineOfCurrentStage;
         private bool CheckVar;
         private string Subject;
+
+        public SubjectAcceptance()
+        {
+            CheckVar = false;
+        }
 
         public SubjectAcceptance(DateTime testingDate)
         {

@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Dyplomowanie
 {
-   public class ThesisUpload : StageType
+   public class ThesisUpload : StageType, IThesisUpload
     {
         private DateTime DeadlineOfCurrentStage;
+
+        public ThesisUpload()
+        {
+        }
 
         public ThesisUpload(DateTime testingDate)
         {
@@ -45,6 +49,7 @@ namespace Dyplomowanie
         public override void Update(string fileName)
         {
             this.FileName = fileName;
+            //tu powinien być zapis do bazy
         }
 
         public override bool Check()
