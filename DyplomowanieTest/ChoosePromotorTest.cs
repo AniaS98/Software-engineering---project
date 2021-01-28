@@ -22,8 +22,8 @@ namespace DyplomowanieTest
         [TestMethod]
         public void DeadlineCheck_Test2()
         {
-            DateTime date2 = new DateTime(2020, 1, 1);
-            DateTime testing = new DateTime(2021, 1, 2);
+            DateTime date2 = new DateTime(2021, 12, 2);
+            DateTime testing = new DateTime(2021, 1, 1);
             bool expected = true;
             var Dyplomowanie = new ChoosePromotor(date2);
             bool actual = Dyplomowanie.DeadlineCheck(testing);

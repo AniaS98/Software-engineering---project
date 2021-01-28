@@ -94,7 +94,7 @@ namespace DyplomowanieTest
         {
             DateTime date = new DateTime(2021, 1, 1);
             DateTime testing = new DateTime(2021, 1, 2);
-            bool expected = true;
+            bool expected = false;
             var Dyplomowanie = new SelectSubject(date);
             Dyplomowanie.Update("");
             bool actual = Dyplomowanie.Check();

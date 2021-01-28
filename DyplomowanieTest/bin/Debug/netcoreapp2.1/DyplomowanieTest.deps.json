@@ -1,11 +1,11 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v2.2",
+    "name": ".NETCoreApp,Version=v2.1",
     "signature": "a2381b16da260a39cb37426d7cb01e1a5ce4b823"
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v2.2": {
+    ".NETCoreApp,Version=v2.1": {
       "DyplomowanieTest/1.0.0": {
         "dependencies": {
           "Dyplomowanie": "1.0.0",

@@ -21,7 +21,7 @@ namespace DyplomowanieTest
         public void SetNextStage_Test2()
         {
             DateTime date = new DateTime(2021, 1, 1);
-            bool expected = false;
+            bool expected = true;
             var cp = new ChoosePromotor(date);
             cp.Update("Jan Kowalski");
             bool actual = cp.Check();

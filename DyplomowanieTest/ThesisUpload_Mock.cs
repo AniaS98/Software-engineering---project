@@ -7,7 +7,7 @@ namespace DyplomowanieTest
 {
     //Testy z użyciem MOCK
     [TestClass]
-    class ThesisUpload_Mock
+    public class ThesisUpload_Mock
     {
         [TestMethod]
         public void ThesisUploded_MockTest()
