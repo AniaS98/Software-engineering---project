@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Dyplomowanie"
+    "\\Dyplomowanie",
+    "\\DyplomowanieTest",
+    "\\Dyplomowanie\\obj"
   ],
   "SelectedNode": "\\Dyplomowanie.sln",
   "PreviewInSolutionExplorer": false
