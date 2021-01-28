@@ -15,3 +15,6 @@ C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\obj
 C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\Dyplomowanie.dll
 C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\Dyplomowanie.pdb
 C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\obj\Debug\netcoreapp2.2\DyplomowanieTest.csproj.CopyComplete
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\testhost.exe
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\testhost.dll
+C:\Users\futura\Source\Repos\Software-engineering---project\DyplomowanieTest\bin\Debug\netcoreapp2.2\Microsoft.TestPlatform.PlatformAbstractions.dll
