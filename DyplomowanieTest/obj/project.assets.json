@@ -1643,7 +1643,7 @@
       },
       "Dyplomowanie/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
+        "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Moq": "4.16.0"
         },
@@ -2419,11 +2419,12 @@
       ]
     },
     "Microsoft.Win32.Registry/4.0.0": {
-      "sha512": "bdxfyPwjjt89Bdfd/oalTgr85nRKiTCEXTNQDKNM5bYPG8W8eso1UlcNTw9lTUpItE00SHpDZ9g7WPSvuiamng==",
+      "sha512": "q+eLtROUAQ3OxYA5mpQrgyFgzLQxIyrfT2eLpYX5IEPlHmIio2nh4F5bgOaQoGOV865kFKZZso9Oq9RlazvXtg==",
       "type": "package",
       "path": "microsoft.win32.registry/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/Microsoft.Win32.Registry.dll",
@@ -2998,11 +2999,12 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
+      "sha512": "LE/oChpRvkSi3U25u0KnJcI44JeDZ1QJCyN4qFDx2uusEypdqR24w7lKYw21eYe5esuCBuc862wRmpF63Yy1KQ==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3358,11 +3360,12 @@
       ]
     },
     "System.Diagnostics.Process/4.1.0": {
-      "sha512": "SUOPJojx9qUGN10QChESwJFkFy8eGvwBYBYmeJ9ble0YOWzW3nrCjKD9JvbFDY1dcTc6bdkGQQmH+MB/wkCm+A==",
+      "sha512": "mpVZ5bnlSs3tTeJ6jYyDJEIa6tavhAd88lxq1zbYhkkCu0Pno2+gHXcvZcoygq2d8JxW3gojXqNJMTAshduqZA==",
       "type": "package",
       "path": "system.diagnostics.process/4.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4988,11 +4991,12 @@
       ]
     },
     "System.Runtime.Loader/4.0.0": {
-      "sha512": "DBaH7Zn+5XHhMUhDcDPA5fYJ8pNZDs6vtHwZYdPPngErDE3gJpRTKmyef1sDoTQ5itjvCbqyARKV2vNpk2DSSA==",
+      "sha512": "4UN78GOVU/mbDFcXkEWtetJT/sJ0yic2gGk1HSlSpWI0TDf421xnrZTDZnwNBapk1GQeYN7U1lTj/aQB1by6ow==",
       "type": "package",
       "path": "system.runtime.loader/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net462/_._",
@@ -5535,11 +5539,12 @@
       ]
     },
     "System.Threading.Thread/4.0.0": {
-      "sha512": "65F+kvJNX2ynY1u4hNUkRY0jpQrq8jI0myGSaF0uMS1QktmIRGvjP/Ld6qwPOQqDu3xjAZLNoRdn1gJUAAeQ9w==",
+      "sha512": "gIdJqDXlOr5W9zeqFErLw3dsOsiShSCYtF9SEHitACycmvNvY8odf9kiKvp6V7aibc8C4HzzNBkWXjyfn7plbQ==",
       "type": "package",
       "path": "system.threading.thread/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5574,11 +5579,12 @@
       ]
     },
     "System.Threading.ThreadPool/4.0.10": {
-      "sha512": "3LqVlgiyDH6MH89aGL2MCPjGACS6ZH4bLxY+2LqjKfd69nRLYSS48fic5ZM0ep0MGsySIMYk52UmjZhATc3MUA==",
+      "sha512": "IMXgB5Vf/5Qw1kpoVgJMOvUO1l32aC+qC3OaIZjWJOjvcxuxNWOK2ZTWWYXfij22NHxT2j1yWX5vlAeQWld9vA==",
       "type": "package",
       "path": "system.threading.threadpool/4.0.10",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5862,11 +5868,12 @@
       ]
     },
     "System.Xml.XPath/4.0.1": {
-      "sha512": "R+JKpbWWGtdzzGg3BnMrFkW5K2lGld8b+lYNHv9DW2Xqw3fHirC9cqWqG/w/ykgEaBOeFoLwYSfwdcSOWltrWQ==",
+      "sha512": "UWd1H+1IJ9Wlq5nognZ/XJdyj8qPE4XufBUkAW59ijsCPjZkZe0MUzKKJFBr+ZWBe5Wq1u1d5f2CYgE93uH7DA==",
       "type": "package",
       "path": "system.xml.xpath/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5953,23 +5960,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adm\\.nuget\\packages\\": {},
+    "C:\\Users\\futura\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adm\\Source\\Repos\\AniaS98\\Software-engineering---project\\DyplomowanieTest\\DyplomowanieTest.csproj",
+      "projectUniqueName": "C:\\Users\\futura\\Source\\Repos\\Software-engineering---project\\DyplomowanieTest\\DyplomowanieTest.csproj",
       "projectName": "DyplomowanieTest",
-      "projectPath": "C:\\Users\\adm\\Source\\Repos\\AniaS98\\Software-engineering---project\\DyplomowanieTest\\DyplomowanieTest.csproj",
-      "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adm\\Source\\Repos\\AniaS98\\Software-engineering---project\\DyplomowanieTest\\obj\\",
+      "projectPath": "C:\\Users\\futura\\Source\\Repos\\Software-engineering---project\\DyplomowanieTest\\DyplomowanieTest.csproj",
+      "packagesPath": "C:\\Users\\futura\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\futura\\Source\\Repos\\Software-engineering---project\\DyplomowanieTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\futura\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5982,8 +5989,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\adm\\Source\\Repos\\AniaS98\\Software-engineering---project\\Dyplomowanie\\Dyplomowanie.csproj": {
-              "projectPath": "C:\\Users\\adm\\Source\\Repos\\AniaS98\\Software-engineering---project\\Dyplomowanie\\Dyplomowanie.csproj"
+            "C:\\Users\\futura\\Source\\Repos\\Software-engineering---project\\Dyplomowanie\\Dyplomowanie.csproj": {
+              "projectPath": "C:\\Users\\futura\\Source\\Repos\\Software-engineering---project\\Dyplomowanie\\Dyplomowanie.csproj"
             }
           }
         }
