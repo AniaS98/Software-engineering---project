@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Dyplomowanie
 {
-    public class ChoosePromotor : StageType
+    public class ChoosePromotor : StageType, IThesisUpload
     {
         private DateTime DeadlineOfCurrentStage;
         private string Promotor;
         
+        public ChoosePromotor()
+        {
+            Promotor = "";
+        }
+
         public ChoosePromotor(DateTime testingDate)
         {
             this.DeadlineOfCurrentStage = testingDate.AddDays(15.0);
@@ -49,6 +54,7 @@ namespace Dyplomowanie
         public override void Update(string PromotorNameSurname)
         {
             Promotor = PromotorNameSurname;
+            //tu powinien być zapis do bazy
         }
 
         public override bool Check()

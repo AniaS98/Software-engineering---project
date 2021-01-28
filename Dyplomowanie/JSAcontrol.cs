@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace Dyplomowanie
 {
-    public class JSAcontrol : StageType
+    public class JSAcontrol : StageType, IThesisUpload
     {
         private DateTime DeadlineOfCurrentStage;
         private bool CheckVar;
+
+        public JSAcontrol()
+        {
+            this.CheckVar = false;
+        }
 
         public JSAcontrol(DateTime testingDate)
         {
@@ -55,6 +60,7 @@ namespace Dyplomowanie
         {
             this.CheckVar = true;
             this.FileName = fileName;
+            //tu powinien być zapis do bazy
         }
 
         public override bool Check()

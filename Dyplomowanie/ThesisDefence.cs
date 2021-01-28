@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Dyplomowanie
 {
-    public class ThesisDefence : StageType
+    public class ThesisDefence : StageType, IThesisUpload
     {
         private DateTime DeadlineOfCurrentStage;
         private DateTime DateOfGraduate;
-               
+          
+        public ThesisDefence()
+        {
+            this.DateOfGraduate = new DateTime();
+        }
+
         public ThesisDefence(DateTime testingDate)
         {
             this.DeadlineOfCurrentStage = testingDate.AddDays(1.0);
@@ -47,6 +52,7 @@ namespace Dyplomowanie
         public override void Update(string date)
         {
             this.DateOfGraduate = DateTime.Parse(date);
+            //tu powinien być zapis do bazy
         }
 
         public override bool Check()

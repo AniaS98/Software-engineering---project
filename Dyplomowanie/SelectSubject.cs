@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Dyplomowanie
 {
-    public class SelectSubject : StageType
+    public class SelectSubject : StageType, IThesisUpload
     {
         private DateTime DeadlineOfCurrentStage;
+
+        public SelectSubject()
+        {
+            Subject = "";
+        }
 
         public SelectSubject(DateTime testingDate)
         {
@@ -48,6 +53,7 @@ namespace Dyplomowanie
         public override void Update(string subject)
         {
             this.Subject = subject; 
+            //tu powinien być zapis do bazy
         }
 
         public override bool Check()
