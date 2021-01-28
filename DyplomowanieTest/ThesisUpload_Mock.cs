@@ -5,6 +5,7 @@ using System;
 
 namespace DyplomowanieTest
 {
+    //Testy z użyciem MOCK
     [TestClass]
     class ThesisUpload_Mock
     {

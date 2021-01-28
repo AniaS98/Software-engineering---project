@@ -10,10 +10,21 @@ namespace DyplomowanieTest
         [TestMethod]
         public void SetNextStage_Test()
         {
-            DateTime date = new DateTime(2021, 11, 1);
+            DateTime date = new DateTime(2021, 1, 1);
             bool expected = false;
             var Dyplomowanie = new DiplomaProcess(date);
             bool actual = Dyplomowanie.ActualStage.Check();
+            Assert.AreEqual<bool>(expected, actual);
+        }
+
+        [TestMethod]
+        public void SetNextStage_Test2()
+        {
+            DateTime date = new DateTime(2021, 1, 1);
+            bool expected = false;
+            var cp = new ChoosePromotor(date);
+            cp.Update("Jan Kowalski");
+            bool actual = cp.Check();
             Assert.AreEqual<bool>(expected, actual);
         }
 
