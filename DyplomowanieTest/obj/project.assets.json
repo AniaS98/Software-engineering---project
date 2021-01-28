@@ -5959,11 +5959,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adm\\Source\\Repos\\AniaS98\\Software-engineering---project\\DyplomowanieTest\\DyplomowanieTest.csproj",
+      "projectUniqueName": "C:\\Users\\adm\\source\\repos\\AniaS98\\Software-engineering---project\\DyplomowanieTest\\DyplomowanieTest.csproj",
       "projectName": "DyplomowanieTest",
-      "projectPath": "C:\\Users\\adm\\Source\\Repos\\AniaS98\\Software-engineering---project\\DyplomowanieTest\\DyplomowanieTest.csproj",
+      "projectPath": "C:\\Users\\adm\\source\\repos\\AniaS98\\Software-engineering---project\\DyplomowanieTest\\DyplomowanieTest.csproj",
       "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adm\\Source\\Repos\\AniaS98\\Software-engineering---project\\DyplomowanieTest\\obj\\",
+      "outputPath": "C:\\Users\\adm\\source\\repos\\AniaS98\\Software-engineering---project\\DyplomowanieTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5982,8 +5982,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\adm\\Source\\Repos\\AniaS98\\Software-engineering---project\\Dyplomowanie\\Dyplomowanie.csproj": {
-              "projectPath": "C:\\Users\\adm\\Source\\Repos\\AniaS98\\Software-engineering---project\\Dyplomowanie\\Dyplomowanie.csproj"
+            "C:\\Users\\adm\\source\\repos\\AniaS98\\Software-engineering---project\\Dyplomowanie\\Dyplomowanie.csproj": {
+              "projectPath": "C:\\Users\\adm\\source\\repos\\AniaS98\\Software-engineering---project\\Dyplomowanie\\Dyplomowanie.csproj"
             }
           }
         }
